@@ -26,13 +26,9 @@ OpenZFS官网wiki: [https://openzfs.org/wiki/Main\_Page](https://openzfs.org/wik
 ## OpenZFS 技术资源
 
 * [如何安装ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/index.html)
+
 * [ZFS手册](https://openzfs.github.io/openzfs-docs/man/index.html)
 
-## 捐赠
+* [功能列表](https://openzfs.org/wiki/Features)
 
-我们接受捐款以维持我们的开发。
-
-OpenZFS 是 SPI 的关联项目 [Software in the Public Interest](https://www.spi-inc.org/projects/openzfs/)。 SPI 是一个 501\(c\)\(3\) 非营利组织，负责处理我们的捐赠、财务和合法资产。 您可以使用以下链接通过 `paypal` 捐款:
-
-![](https://www.paypalobjects.com/en_US/i/scr/pixel.gif)
 
