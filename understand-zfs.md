@@ -171,21 +171,40 @@ ZFS 是自调整的，但有一些调整可以使某些应用程序受益。 这
 - [ZFS Watcher](http://zfswatcher.damicon.fi/) 是一个池监控和通知守护进程。
 
 
+### General documentation
 
-## Platform/Distribution documentation
+- [Features](https://openzfs.org/wiki/Features)
+- [Publications and conference talks](https://openzfs.org/wiki/Publications)
+- [History](https://openzfs.org/wiki/History)
+- [Performance tuning](https://openzfs.org/wiki/Performance_tuning)
+- Manual pages: [zdb](http://illumos.org/man/1m/zdb) | [zfs](http://illumos.org/man/1m/zfs) | [zpool](http://illumos.org/man/1m/zpool) | [zpool-features](http://illumos.org/man/5/zpool-features) | [zstreamdump](http://illumos.org/man/1m/zstreamdump) – *from illumos; better-rendered pages would be appreciated*
+- [Oracle Solaris ZFS Administration Guide](http://docs.oracle.com/cd/E26505_01/html/E37384/index.html) – largely applicable
+- [￼ZFS – The Last Word in File Systems](http://www.snia.org/sites/default/files2/sdc_archives/2008_presentations/monday/JeffBonwick-BillMoore_ZFS.pdf) – an overview from SNIA 2008
+- [Series of blog posts on ZFS from Aaron Toponce](https://pthree.org/2012/04/17/install-zfs-on-debian-gnulinux/)
+- [Video tutorials from Kateley Co](http://kateleyco.com/?page_id=783)
+- [RAID-Z stripe width](http://blog.delphix.com/matt/2014/06/06/zfs-stripe-width/)
+- [RAID-Z calculation tool](http://wintelguy.com/raidcalc.pl) - includes RAID-Z1/Z2/Z3 calculations
+- Applicable to most platforms, but maybe outdated:
+  - [ZFS Best Practices Guide](http://www.solarisinternals.com/wiki/index.php/ZFS_Best_Practices_Guide)
+  - [ZFS Configuration Guide](http://www.solarisinternals.com/wiki/index.php/ZFS_Configuration_Guide)
+  - [ZFS Evil Tuning Guide](http://www.solarisinternals.com/wiki/index.php/ZFS_Evil_Tuning_Guide)
 
-### FreeBSD
+
+
+### Platform/Distribution documentation
+
+#### FreeBSD
 
 - Manual pages: [zdb](http://www.freebsd.org/cgi/man.cgi?query=zdb&manpath=FreeBSD+8.4-RELEASE) | [zfs](http://www.freebsd.org/cgi/man.cgi?query=zfs&manpath=FreeBSD+8.4-RELEASE) | [zpool](http://www.freebsd.org/cgi/man.cgi?query=zpool&manpath=FreeBSD+8.4-RELEASE) | [zpool-features](http://www.freebsd.org/cgi/man.cgi?query=zpool-features&manpath=FreeBSD+8.4-RELEASE) | [zstreamdump](http://www.freebsd.org/cgi/man.cgi?query=zstreamdump&manpath=FreeBSD+8.4-RELEASE)
 - [ZFS Chapter](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/zfs.html) of *The FreeBSD Handbook*
 - [FreeBSD ZFS Wiki](https://wiki.freebsd.org/ZFS)
 
-### Gentoo
+#### Gentoo
 
 - [Wiki page](https://wiki.gentoo.org/wiki/ZFS)
 - [Richard Yao's Gentoo installation notes](https://github.com/ryao/zfs-overlay/blob/master/zfs-install)
 
-### illumos
+#### illumos
 
 - Manual pages: [zdb](http://www.illumos.org/man/1m/zdb) | [zfs](http://illumos.org/man/1m/zfs) | [zpool](https://www.illumos.org/man/1M/zpool) | [zpool-features](https://www.illumos.org/man/5/zpool-features) | [zstreamdump](http://illumos.org/man/1m/zstreamdump)
 - [Wiki page](http://wiki.illumos.org/display/illumos/ZFS)
